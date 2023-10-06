@@ -21,7 +21,7 @@ var cluster3 = ClusterConfig{
 var clusters = []ClusterConfig{ cluster1, cluster3 }
 
 const (
-	LoginClientId		 						    = "{{ op://cohorts/team11-svc-auth0/twdpsio-dpsctl-client-id}}"
+	LoginClientId		 						    = "{{ op://cohorts/team11-svc-auth0/twdpsio-dpsctl-client-id }}"
 	LoginScope                      = "openid offline_access profile email"
 	LoginAudience                   = ""
 
